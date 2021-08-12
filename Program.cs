@@ -1,12 +1,17 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace sourcetree
 {
-    class Program
+    class Commit
     {
+        int i;
+        int j;
+        static string str;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World hehe!");
+            str = "Hello WOrld";
+            Console.WriteLine(str);
+            
         }
     }
 }
